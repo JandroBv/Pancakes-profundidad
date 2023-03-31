@@ -21,9 +21,7 @@ desde esa posición.
  
  ## Como utilizar el código
  Para poder utilizar el código se tiene que crear una instancia de la clase "Pancakes" añadiendole como parametro una lista desordenada  
- de letras minusculas y luego llamar a la funcion busqProfundidad() dandole como parametro la lista a ordenar y una lista con un solo  
- elemento (este elemento no saldrá en el resultado retornado). El resultado de la ejecución será una serie de numeros que indican los  
- movimientos que se tienen que realizar para resolver ese problema en caso de que encuentre una solución dentro del limite de profundidad 
+ de letras minusculas y una profundidad limite y luego llamar a la funcion busqProfundidad() dandole como parametro la lista a ordenar y una lista con un solo elemento (este elemento no saldrá en el resultado retornado). El resultado de la ejecución será una serie de numeros que indican los movimientos que se tienen que realizar para resolver ese problema en caso de que encuentre una solución dentro del limite de profundidad 
  o returnará None en caso de no encontrar solución dentro ese limite.
  
 A continuación se presenta un ejemplo de como utilizar el código:
