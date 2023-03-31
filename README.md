@@ -7,12 +7,10 @@ Este programa resuelve el problema de pancake sorting mediante el uso de DFS (De
 ## Funciones
 
  ### **'__ init __(self, pancakes, profundidad)'**
- Este el constructor de la clase Pancakes que recibe como parametros una lista de letras desordenadas y una profundidad limite para el  
- programa.
+ Este el constructor de la clase Pancakes que recibe como parametros una lista de letras desordenadas y una profundidad limite para el programa.
  ### **'voltear(self, posicion, pancakes)'**
  
-Esta funcion recibe como parametro la posición donde se van a voltear los pancakes y la lista a voltear y devuelve los pancakes volteados  
-desde esa posición.
+Esta funcion recibe como parametro la posición donde se van a voltear los pancakes y la lista a voltear y devuelve los pancakes volteados desde esa posición.
 
  ### **'busqProfundidad(self, nodo, ant)'**
  Esta funcion recibe como parametros el nodo a partir del cual se realizará la busqueda en profundidad y el movimiento anterior  
